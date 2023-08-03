@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(23, 159, 205);
+    
+    
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(10,40px);
+    height: 500px;
+    width: 25%;
+    margin: auto;
+
+    
+}
+.cell{
+    border: 4 px solid:black;
+    width: 40 px;
+    height: 40 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin-right:1px;
+    margin-top:1px;
+
+
+}
+
+#message {
+    margin-top: 20 px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: red;
+    letter-spacing: 4px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.button2{
+background-color: grey;
+letter-spacing: 4px;
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+margin-bottom: 25px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
